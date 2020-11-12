@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What App"
+        android:text="@string/welcome_to_my_project"
         android:textSize="26sp"
         android:textStyle="bold" />
     <Button
@@ -21,7 +21,7 @@
         android:layout_marginTop="100dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Login"
+        android:text="@string/login"
         android:textColor="#FFF"/>
 
     <Button
@@ -30,7 +30,7 @@
         android:id="@+id/start_register_btn"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Register"
+        android:text="@string/register"
         android:textColor="#FFF"/>
 
 

@@ -3,5 +3,18 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="profile">Profile</string>
-    <string name="username">username</string>
+    <string name="login_with_your_account">Login with your Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="username">Username</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="send">send</string>
+    <string name="welcome_to_my_project">Welcome to my Project</string>
+    <string name="register">Register</string>
+    <string name="create_a_new_account">Create a new Account</string>
+    <string name="your_email">Your Email</string>
+    <string name="reset">Reset</string>
+    <string name="by_clicking_reset_n_you_will_receive_an_email_to_reset_your_password">By clicking RESET, \n you will receive an email to reset your password</string>
 </resources>
