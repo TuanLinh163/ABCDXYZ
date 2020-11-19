@@ -90,6 +90,7 @@ public class MessageActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String msg = text_send.getText().toString();
                 if (!msg.equals("")) {
+                    // sendMessage(String sender, String receiver, String message)
                     sendMessage(fUser.getUid(), userid, msg);
                 } else {
                     Toast.makeText(MessageActivity.this, "You cant send empty message.", Toast.LENGTH_SHORT).show();
@@ -155,7 +156,6 @@ public class MessageActivity extends AppCompatActivity {
         reference.child("Chats").push().setValue(hashMap);
         final String userid = intent.getStringExtra("userid");
 
-
         // Add user to chat fragment
         DatabaseReference chatRef = FirebaseDatabase.getInstance().getReference().child("Chatlist").child(fUser.getUid()).child(userid);
 
@@ -169,7 +169,6 @@ public class MessageActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
             }
         });
     }

@@ -67,7 +67,6 @@ public class ChatsFragment extends Fragment {
                 }
                 chatList();
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
 
